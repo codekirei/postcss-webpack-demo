@@ -1,8 +1,21 @@
-@custom-media --small only screen and (max-width: 600px);
+@custom-media --sm only screen and (width <= 600px);
+@custom-media --md only screen and (600px < width < 1280px);
+@custom-media --lg only screen and (width >= 1280px);
 
-@media (--small) {
-  body {
-    background: red;
-    display: flex;
-  }
+/* autoprefixer */
+body {
+  display: flex;
+}
+
+/* custom-media */
+@media (--sm) {
+  body { background: red; }
+}
+
+@media (--md) {
+  body { background: blue; }
+}
+
+@media (--lg) {
+  body { background: yellow; }
 }

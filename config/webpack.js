@@ -31,6 +31,8 @@ module.exports = {
   },
   postcss: [
     customMedia,
+    mediaMinmax,
+    ifMedia,
     autoprefixer,
   ],
   plugins: [

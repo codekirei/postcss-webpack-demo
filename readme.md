@@ -22,5 +22,6 @@
 **Media Queries**
 
 - [custom-media](https://github.com/postcss/postcss-custom-media)
+- [media-minmax](https://github.com/postcss/postcss-media-minmax)
 
 **SVGs**
