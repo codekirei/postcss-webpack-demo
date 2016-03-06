@@ -77,3 +77,8 @@
       - base64
       - image-inliner
   - sprites
+
+- Create kirei-css compilation
+  - have a look at these existing compilations:
+    - simplaio/rucksack
+    - jonathantneal/precss

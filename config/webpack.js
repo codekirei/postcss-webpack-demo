@@ -21,7 +21,7 @@ module.exports = {
       },
     ],
   },
-  postcss: () => [
+  postcss: [
     autoprefixer,
   ],
   plugins: [
