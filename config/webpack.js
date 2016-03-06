@@ -7,8 +7,8 @@ const autoprefixer = require('autoprefixer')
 const customMedia = require('postcss-custom-media')
 const ifMedia = require('postcss-if-media')
 const mediaMinmax = require('postcss-media-minmax')
+const colorScale = require('postcss-color-scale')
 //----------------------------------------------------------
-
 
 const cwd = process.cwd()
 
@@ -33,6 +33,7 @@ module.exports = {
     ifMedia,
     customMedia,
     mediaMinmax,
+    colorScale,
     autoprefixer,
   ],
   plugins: [

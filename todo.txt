@@ -1,7 +1,6 @@
 - media-queries:
   - media-variables
 - colors:
-  - color-function / color-scale
   - contrast
   - brand-colors
 - compatibility:

@@ -15,6 +15,8 @@
 
 **Colors**
 
+- [color-scale](https://github.com/kristoferjoseph/postcss-color-scale)
+
 **Fonts**
 
 **Layout**
