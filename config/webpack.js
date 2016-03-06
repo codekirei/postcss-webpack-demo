@@ -1,6 +1,14 @@
 const path = require('path')
-const autoprefixer = require('autoprefixer')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
+
+// postcss plugins
+//----------------------------------------------------------
+const autoprefixer = require('autoprefixer')
+const customMedia = require('postcss-custom-media')
+const ifMedia = require('postcss-if-media')
+const mediaMinmax = require('postcss-media-minmax')
+//----------------------------------------------------------
+
 
 const cwd = process.cwd()
 
@@ -22,6 +30,7 @@ module.exports = {
     ],
   },
   postcss: [
+    customMedia,
     autoprefixer,
   ],
   plugins: [

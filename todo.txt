@@ -1,6 +1,5 @@
 - media-queries:
   - if-media
-  - custom-media
   - media-minmax
   - media-variables
 - colors:

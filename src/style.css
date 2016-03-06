@@ -1,4 +1,8 @@
-body {
-  background: red;
-  display: flex;
+@custom-media --small only screen and (max-width: 600px);
+
+@media (--small) {
+  body {
+    background: red;
+    display: flex;
+  }
 }

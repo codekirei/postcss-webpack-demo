@@ -6,7 +6,10 @@
     "autoprefixer": "^6.3.3",
     "css-loader": "^0.23.1",
     "extract-text-webpack-plugin": "^1.0.1",
+    "postcss-custom-media": "^5.0.1",
+    "postcss-if-media": "^1.0.1",
     "postcss-loader": "^0.8.1",
+    "postcss-media-minmax": "^2.1.1",
     "webpack": "^1.12.14"
   }
 }
