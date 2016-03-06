@@ -30,9 +30,9 @@ module.exports = {
     ],
   },
   postcss: [
+    ifMedia,
     customMedia,
     mediaMinmax,
-    ifMedia,
     autoprefixer,
   ],
   plugins: [

@@ -22,6 +22,7 @@
 **Media Queries**
 
 - [custom-media](https://github.com/postcss/postcss-custom-media)
+- [if-media](https://github.com/arccoza/postcss-if-media)
 - [media-minmax](https://github.com/postcss/postcss-media-minmax)
 
 **SVGs**

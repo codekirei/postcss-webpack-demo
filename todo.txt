@@ -1,6 +1,4 @@
 - media-queries:
-  - if-media
-  - media-minmax
   - media-variables
 - colors:
   - color-function / color-scale

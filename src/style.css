@@ -7,15 +7,9 @@ body {
   display: flex;
 }
 
-/* custom-media */
-@media (--sm) {
-  body { background: red; }
-}
-
-@media (--md) {
-  body { background: blue; }
-}
-
-@media (--lg) {
-  body { background: yellow; }
+/* custom-media, media-minmax, if-media */
+body {
+  background: red ?if media (--sm);
+  background: blue ?if media (--md);
+  background: yellow ?if media (--lg);
 }
