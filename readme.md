@@ -15,6 +15,7 @@
 
 **Colors**
 
+- [brand-colors](https://github.com/postcss/postcss-brand-colors)
 - [color-scale](https://github.com/kristoferjoseph/postcss-color-scale)
 
 **Fonts**

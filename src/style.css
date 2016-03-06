@@ -3,22 +3,27 @@
   --cs-variance: 20;
 }
 
-@custom-media --sm only screen and (width <= 600px);
-@custom-media --md only screen and (600px < width < 1280px);
-@custom-media --lg only screen and (width >= 1280px);
-
 /* autoprefixer */
 body {
   display: flex;
 }
 
 /* custom-media, media-minmax, if-media */
+@custom-media --sm only screen and (width <= 600px);
+@custom-media --md only screen and (600px < width < 1280px);
+@custom-media --lg only screen and (width >= 1280px);
+
 body {
   background: red ?if media (--sm);
   background: blue ?if media (--md);
   background: yellow ?if media (--lg);
 }
 
+/* color-scale */
 .primary { background: cs(0); }
 .primary--dark { background: cs(-1); }
 .primary--light { background: cs(1); }
+
+/* brand-colors */
+.twitter-button { background: twitter-color; }
+
