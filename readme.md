@@ -9,16 +9,16 @@
 - Media Queries
 - SVGs
 
-### Browser Compatibility
+**Browser Compatibility**
 
 - [autoprefixer](https://github.com/postcss/autoprefixer)
 
-### Colors
+**Colors**
 
-### Fonts
+**Fonts**
 
-### Layout
+**Layout**
 
-### Media Queries
+**Media Queries**
 
-### SVGs
+**SVGs**

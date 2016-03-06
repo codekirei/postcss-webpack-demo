@@ -8,7 +8,6 @@
   - contrast
   - brand-colors
 - compatibility:
-  - autoprefixer
   - input-style
   - image-set / at2x?
 - fonts:
