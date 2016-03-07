@@ -43,16 +43,6 @@
 
   - nesting / nested / nested-props
 
-  - axis
-  - short-border
-  - short-color
-  - short-position
-  - short-spacing
-  - short-size
-  - short-font-size
-
-  - vs define-property / mixins
-
 - variables
   - map
   - simple-vars / advanced-vars / nested-vars
@@ -60,6 +50,7 @@
   - css-variables
 
 - To Think About More:
+  - mixins to include by default (see short-*, axis)
   - probably not necessary
     - reporter/browser-reporter?
     - functions
