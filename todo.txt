@@ -1,20 +1,48 @@
-- media-queries:
-  - media-variables
 - compatibility:
   - input-style
   - image-set / at2x?
+
 - fonts:
   - font-magician
   - responsive-type
+
 - layout:
   - vertical-rhythm
   - define-units
   - lost
-- convenience:
-  - custom-selectors
-  - reporter
-  - nesting / nested / nested-props
+  - clearfix
+
+- minification:
+  - cssnano
+  - discard-duplicates
+  - discard-unused
+
+- svg
+  - inline-svg
+  - postcss-svgo
+  - svg-fragments?
+
+- selectors:
   - pseudo-class-enter
+  - quantity-queries
+  - custom-selectors
+
+- properties:
+
+- at-rules
+  - import
+  - reference
+  - single-charset
+  - alias-atrules
+
+- values:
+  - calc
+
+- convenience:
+  - hidden
+
+  - nesting / nested / nested-props
+
   - axis
   - short-border
   - short-color
@@ -22,41 +50,22 @@
   - short-spacing
   - short-size
   - short-font-size
-  - inline-comment
-  - quantity-queries
-  - map / contstants
-  - single-charset
-  - hidden
-  - clearfix
-- minification:
-  - cssnano
-  - discard-duplicates
-  - discard-unused
-- functions:
-  - calc-function
-  - calc
-  current-selector
-  functions
-  at-rules-variables ?
-- svg
-  - inline-svg
-  - postcss-svgo
-  - svg-fragments?
+
+  - vs define-property / mixins
+
 - variables
+  - map
   - simple-vars / advanced-vars / nested-vars
-  - alias
-  - simple-extend
-  - mixins / sassy-mixins
-  - partial-import
-  - import
-  - apply
-  - reference
-  - define-property
-  - aliases
+  - media-variables
   - css-variables
 
 - To Think About More:
-  - contrast
+  - probably not necessary
+    - reporter/browser-reporter?
+    - functions
+    - at-rules-variables
+    - current-selector
+    - contrast
   - px vs rems?
   - cache busting
   - image sizes / lazy-loading images?

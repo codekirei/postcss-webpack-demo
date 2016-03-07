@@ -27,3 +27,12 @@ body {
 /* brand-colors */
 .twitter-button { background: twitter-color; }
 
+/* mixins */
+@define-mixin size $len {
+  height: $len;
+  width: $len;
+}
+
+.box {
+  @mixin size 10px;
+}
