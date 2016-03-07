@@ -10,6 +10,7 @@
     "postcss-clearfix": "^0.3.0",
     "postcss-color-scale": "^1.1.2",
     "postcss-custom-media": "^5.0.1",
+    "postcss-define-units": "0.0.3",
     "postcss-if-media": "^1.0.1",
     "postcss-import": "^8.0.2",
     "postcss-loader": "^0.8.1",

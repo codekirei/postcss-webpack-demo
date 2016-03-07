@@ -23,6 +23,7 @@ module.exports = {
   postcss: webpack => [
     require('postcss-import')({ addDependencyTo: webpack }),
     require('postcss-mixins'),
+    require('postcss-define-units'),
     require('postcss-if-media'),
     require('postcss-custom-media'),
     require('postcss-media-minmax'),
