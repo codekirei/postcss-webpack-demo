@@ -1,17 +1,6 @@
 const path = require('path')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 
-// postcss plugins
-//----------------------------------------------------------
-const autoprefixer = require('autoprefixer')
-const brandColors = require('postcss-brand-colors')
-const colorScale = require('postcss-color-scale')
-const customMedia = require('postcss-custom-media')
-const ifMedia = require('postcss-if-media')
-const mediaMinmax = require('postcss-media-minmax')
-const mixins = require('postcss-mixins')
-//----------------------------------------------------------
-
 const cwd = process.cwd()
 
 module.exports = {
@@ -31,14 +20,15 @@ module.exports = {
       },
     ],
   },
-  postcss: [
-    mixins,
-    ifMedia,
-    customMedia,
-    mediaMinmax,
-    colorScale,
-    brandColors,
-    autoprefixer,
+  postcss: webpack => [
+    require('postcss-import')({ addDependencyTo: webpack }),
+    require('postcss-mixins'),
+    require('postcss-if-media'),
+    require('postcss-custom-media'),
+    require('postcss-media-minmax'),
+    require('postcss-color-scale'),
+    require('postcss-brand-colors'),
+    require('autoprefixer'),
   ],
   plugins: [
     new ExtractTextPlugin('style.css'),

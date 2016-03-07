@@ -1,7 +1,3 @@
-- compatibility:
-  - input-style
-  - image-set / at2x?
-
 - fonts:
   - font-magician
   - responsive-type
@@ -12,11 +8,6 @@
   - lost
   - clearfix
 
-- minification:
-  - cssnano
-  - discard-duplicates
-  - discard-unused
-
 - svg
   - inline-svg
   - postcss-svgo
@@ -26,31 +17,23 @@
   - pseudo-class-enter
   - quantity-queries
   - custom-selectors
-
-- properties:
+  - nesting / nested / nested-props
 
 - at-rules
-  - import
   - reference
   - single-charset
   - alias-atrules
 
 - values:
   - calc
+  - css-variables / simple-vars
+    - + media-variables if necessary
 
-- convenience:
-  - hidden
-
-  - nesting / nested / nested-props
-
-- variables
-  - map
-  - simple-vars / advanced-vars / nested-vars
-  - media-variables
-  - css-variables
+- normalize.css + okikae.css
 
 - To Think About More:
   - mixins to include by default (see short-*, axis)
+  - minification (nano?)
   - probably not necessary
     - reporter/browser-reporter?
     - functions
@@ -60,6 +43,8 @@
   - px vs rems?
   - cache busting
   - image sizes / lazy-loading images?
+    - image-set
+    - at2x
   - asset path resolution
     - copy-assets
     - copy

@@ -1,0 +1,16 @@
+/* ------------------------------------------------------ *\
+   media queries
+   - custom-media
+   - media-minmax
+   - if-media
+\* ------------------------------------------------------ */
+@custom-media --sm only screen and (width <= 600px);
+@custom-media --md only screen and (600px < width < 1280px);
+@custom-media --lg only screen and (width >= 1280px);
+
+body {
+  background: red ?if media (--sm);
+  background: blue ?if media (--md);
+  background: yellow ?if media (--lg);
+}
+

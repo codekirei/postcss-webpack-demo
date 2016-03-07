@@ -10,6 +10,7 @@
     "postcss-color-scale": "^1.1.2",
     "postcss-custom-media": "^5.0.1",
     "postcss-if-media": "^1.0.1",
+    "postcss-import": "^8.0.2",
     "postcss-loader": "^0.8.1",
     "postcss-media-minmax": "^2.1.1",
     "postcss-mixins": "^4.0.1",

@@ -1,38 +1,6 @@
-:root {
-  --cs-color: darkred;
-  --cs-variance: 20;
-}
+@import "styles/mixins";
+@import "styles/autoprefixer";
+@import "styles/media-queries";
+@import "styles/color-scale";
+@import "styles/brand-colors";
 
-/* autoprefixer */
-body {
-  display: flex;
-}
-
-/* custom-media, media-minmax, if-media */
-@custom-media --sm only screen and (width <= 600px);
-@custom-media --md only screen and (600px < width < 1280px);
-@custom-media --lg only screen and (width >= 1280px);
-
-body {
-  background: red ?if media (--sm);
-  background: blue ?if media (--md);
-  background: yellow ?if media (--lg);
-}
-
-/* color-scale */
-.primary { background: cs(0); }
-.primary--dark { background: cs(-1); }
-.primary--light { background: cs(1); }
-
-/* brand-colors */
-.twitter-button { background: twitter-color; }
-
-/* mixins */
-@define-mixin size $len {
-  height: $len;
-  width: $len;
-}
-
-.box {
-  @mixin size 10px;
-}
