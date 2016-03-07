@@ -2,14 +2,6 @@
 
 ## Modules
 
-- At Rules
-- Browser Compatibility
-- Colors
-- Fonts
-- Layout
-- Media Queries
-- SVGs
-
 **At Rules**
 
 - [import](https://github.com/postcss/postcss-import)
@@ -27,6 +19,8 @@
 **Fonts**
 
 **Layout**
+
+- [clearfix](https://github.com/seaneking/postcss-clearfix)
 
 **Media Queries**
 

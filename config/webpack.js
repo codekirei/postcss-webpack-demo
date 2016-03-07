@@ -28,6 +28,7 @@ module.exports = {
     require('postcss-media-minmax'),
     require('postcss-color-scale'),
     require('postcss-brand-colors'),
+    require('postcss-clearfix'),
     require('autoprefixer'),
   ],
   plugins: [

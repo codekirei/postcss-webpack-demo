@@ -6,7 +6,6 @@
   - vertical-rhythm
   - define-units
   - lost
-  - clearfix
 
 - svg
   - inline-svg
