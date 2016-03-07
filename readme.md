@@ -12,6 +12,7 @@
 
 **At Rules**
 
+- [import](https://github.com/postcss/postcss-import)
 - [mixins](https://github.com/postcss/postcss-mixins)
 
 **Browser Compatibility**
