@@ -16,8 +16,6 @@
 - [brand-colors](https://github.com/postcss/postcss-brand-colors)
 - [color-scale](https://github.com/kristoferjoseph/postcss-color-scale)
 
-**Fonts**
-
 **Layout**
 
 - [define-units](https://github.com/LestaD/postcss-define-units)
@@ -30,3 +28,7 @@
 - [media-minmax](https://github.com/postcss/postcss-media-minmax)
 
 **SVGs**
+
+**Text**
+
+- [responsive-type](https://github.com/seaneking/postcss-responsive-type)

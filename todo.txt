@@ -1,6 +1,5 @@
 - fonts:
   - font-magician
-  - responsive-type
 
 - svg
   - inline-svg
