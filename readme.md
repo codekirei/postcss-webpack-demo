@@ -20,8 +20,8 @@
 
 **Layout**
 
-- [clearfix](https://github.com/seaneking/postcss-clearfix)
 - [define-units](https://github.com/LestaD/postcss-define-units)
+- [lost](https://github.com/peterramsing/lost)
 
 **Media Queries**
 

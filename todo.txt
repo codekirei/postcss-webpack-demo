@@ -2,10 +2,6 @@
   - font-magician
   - responsive-type
 
-- layout:
-  - vertical-rhythm
-  - lost
-
 - svg
   - inline-svg
   - postcss-svgo
