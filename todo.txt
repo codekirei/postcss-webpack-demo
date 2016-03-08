@@ -2,12 +2,10 @@
   - nesting / nested / nested-props
 
 - values:
-  - calc
   - css-variables
     - + media-variables if necessary
 
 - color-scale -> ??
-- color-alpha
 - size
 - fontpath
 

@@ -36,8 +36,9 @@ module.exports = {
     require('postcss-brand-colors'),
     require('postcss-responsive-type'),
     require('lost'),
-    require('autoprefixer'),
+    require('postcss-calc'),
     require('postcss-alias-atrules')({ rules }),
+    require('autoprefixer'),
   ],
   plugins: [
     new ExtractTextPlugin('style.css'),

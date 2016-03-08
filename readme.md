@@ -12,11 +12,6 @@
 
 - [autoprefixer](https://github.com/postcss/autoprefixer)
 
-**Colors**
-
-- [brand-colors](https://github.com/postcss/postcss-brand-colors)
-- [color-scale](https://github.com/kristoferjoseph/postcss-color-scale)
-
 **Layout**
 
 - [define-units](https://github.com/LestaD/postcss-define-units)
@@ -37,3 +32,8 @@
 **Text**
 
 - [responsive-type](https://github.com/seaneking/postcss-responsive-type)
+
+**Values**
+
+- [brand-colors](https://github.com/postcss/postcss-brand-colors)
+- [calc](https://github.com/postcss/postcss-calc)
