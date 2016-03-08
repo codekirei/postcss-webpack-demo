@@ -1,7 +1,6 @@
 - selectors:
   - nesting / nested / nested-props
 
-- size
 - fontpath
 
 - normalize.css + okikae.css

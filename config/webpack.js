@@ -39,6 +39,7 @@ module.exports = {
     require('postcss-responsive-type'),
     require('lost'),
     require('postcss-calc'),
+    require('postcss-size'),
     require('autoprefixer'),
   ],
   plugins: [
