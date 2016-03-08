@@ -1,11 +1,6 @@
 - selectors:
   - nesting / nested / nested-props
 
-- at-rules
-  - reference
-  - single-charset
-  - alias-atrules
-
 - values:
   - calc
   - css-variables

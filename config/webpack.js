@@ -2,6 +2,10 @@ const path = require('path')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 
 const cwd = process.cwd()
+const rules = {
+  '%': 'define-mixin',
+  $: 'mixin',
+}
 
 module.exports = {
   entry: path.resolve(cwd, 'src', 'app'),
@@ -33,6 +37,7 @@ module.exports = {
     require('postcss-responsive-type'),
     require('lost'),
     require('autoprefixer'),
+    require('postcss-alias-atrules')({ rules }),
   ],
   plugins: [
     new ExtractTextPlugin('style.css'),

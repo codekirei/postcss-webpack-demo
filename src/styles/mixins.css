@@ -1,11 +1,11 @@
 /* ------------------------------------------------------ *\
-   mixins
+   mixins, alias-atrules
 \* ------------------------------------------------------ */
-@define-mixin size $len {
+@% size $len {
   height: $len;
   width: $len;
 }
 
 .box {
-  @mixin size 10px;
+  @$ size 10px;
 }
