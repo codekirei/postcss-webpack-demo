@@ -5,6 +5,7 @@
    - if-media
    - alias-atrules
    - simple-variables
+   - discard-empty
 \* ------------------------------------------------------ */
 $sm: 600px;
 $md: 1280px;

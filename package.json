@@ -14,6 +14,7 @@
     "postcss-custom-media": "^5.0.1",
     "postcss-custom-selectors": "^3.0.0",
     "postcss-define-units": "0.0.3",
+    "postcss-discard-empty": "^2.0.1",
     "postcss-if-media": "^1.0.1",
     "postcss-import": "^8.0.2",
     "postcss-loader": "^0.8.1",

@@ -8,14 +8,16 @@
 - [import](https://github.com/postcss/postcss-import)
 - [mixins](https://github.com/postcss/postcss-mixins)
 
-**Browser Compatibility**
+**Automation**
 
 - [autoprefixer](https://github.com/postcss/autoprefixer)
+- [discard-empty](https://github.com/ben-eb/postcss-discard-empty)
 
 **Layout**
 
 - [define-units](https://github.com/LestaD/postcss-define-units)
 - [lost](https://github.com/peterramsing/lost)
+- [responsive-type](https://github.com/seaneking/postcss-responsive-type)
 - [size](https://github.com/postcss/postcss-size)
 
 **Media Queries**
@@ -24,15 +26,9 @@
 - [if-media](https://github.com/arccoza/postcss-if-media)
 - [media-minmax](https://github.com/postcss/postcss-media-minmax)
 
-**Optimization**
-
 **Selectors**
 
 - [custom-selectors](https://github.com/postcss/postcss-custom-selectors)
-
-**Text**
-
-- [responsive-type](https://github.com/seaneking/postcss-responsive-type)
 
 **Values**
 

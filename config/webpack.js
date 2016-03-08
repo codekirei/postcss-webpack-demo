@@ -41,6 +41,7 @@ module.exports = {
     require('postcss-calc'),
     require('postcss-size'),
     require('autoprefixer'),
+    require('postcss-discard-empty'),
   ],
   plugins: [
     new ExtractTextPlugin('style.css'),

@@ -1,14 +1,11 @@
 - selectors:
   - nesting / nested / nested-props
 
-- fontpath
-
 - normalize.css + okikae.css
 
 - To Think About More:
   - mixins to include by default (see short-*, axis)
     - font
-  - minification (nano?)
   - probably not necessary
     - reporter/browser-reporter?
     - functions
