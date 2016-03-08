@@ -1,31 +1,18 @@
 - selectors:
   - nesting / nested / nested-props
 
+- round-subpixels
+
 - normalize.css + okikae.css
 
 - To Think About More:
   - mixins to include by default (see short-*, axis)
-    - font
-  - probably not necessary
-    - reporter/browser-reporter?
-    - functions
-    - at-rules-variables
-    - current-selector
-    - contrast
   - px vs rems?
   - cache busting
   - image sizes / lazy-loading images?
     - image-set
     - at2x
-  - asset path resolution
-    - copy-assets
-    - copy
-    - assets
-    - assets-rebase
-    - url
-    - base64 encoding?
-      - base64
-      - image-inliner
+  - asset path resolution?
 
 - Create kirei-css compilation
   - have a look at these existing compilations:
