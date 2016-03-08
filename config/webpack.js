@@ -40,6 +40,7 @@ module.exports = {
     require('lost'),
     require('postcss-calc'),
     require('postcss-size'),
+    require('postcss-round-subpixels'),
     require('autoprefixer'),
     require('postcss-discard-empty'),
   ],

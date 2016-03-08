@@ -1,8 +1,6 @@
 - selectors:
   - nesting / nested / nested-props
 
-- round-subpixels
-
 - normalize.css + okikae.css
 
 - To Think About More:
@@ -12,6 +10,7 @@
   - image sizes / lazy-loading images?
     - image-set
     - at2x
+    - srcset?
   - asset path resolution?
 
 - Create kirei-css compilation

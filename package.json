@@ -21,6 +21,7 @@
     "postcss-media-minmax": "^2.1.1",
     "postcss-mixins": "^4.0.1",
     "postcss-responsive-type": "^0.3.3",
+    "postcss-round-subpixels": "^1.2.0",
     "postcss-simple-vars": "^1.2.0",
     "postcss-size": "^1.0.0",
     "webpack": "^1.12.14"
