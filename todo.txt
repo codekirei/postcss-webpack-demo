@@ -1,6 +1,3 @@
-- selectors:
-  - nesting / nested / nested-props
-
 - normalize.css + okikae.css
 
 - To Think About More:

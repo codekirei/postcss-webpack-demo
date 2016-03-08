@@ -29,9 +29,11 @@
 **Selectors**
 
 - [custom-selectors](https://github.com/postcss/postcss-custom-selectors)
+- [nested](https://github.com/postcss/postcss-nested)
 
 **Values**
 
 - [brand-colors](https://github.com/postcss/postcss-brand-colors)
 - [calc](https://github.com/postcss/postcss-calc)
+- [round-subpixels](https://github.com/himynameisdave/postcss-round-subpixels)
 - [simple-variables](https://github.com/postcss/postcss-simple-vars)
