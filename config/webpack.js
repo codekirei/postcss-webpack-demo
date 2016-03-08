@@ -5,6 +5,7 @@ const cwd = process.cwd()
 const rules = {
   '%': 'define-mixin',
   $: 'mixin',
+  breakpoint: 'custom-media',
 }
 
 module.exports = {
@@ -26,18 +27,19 @@ module.exports = {
   },
   postcss: webpack => [
     require('postcss-import')({ addDependencyTo: webpack }),
+    require('postcss-alias-atrules')({ rules }),
     require('postcss-mixins'),
-    require('postcss-custom-selectors'),
-    require('postcss-define-units'),
+    require('postcss-simple-vars'),
     require('postcss-if-media'),
     require('postcss-custom-media'),
     require('postcss-media-minmax'),
+    require('postcss-custom-selectors'),
+    require('postcss-define-units'),
     require('postcss-color-scale'),
     require('postcss-brand-colors'),
     require('postcss-responsive-type'),
     require('lost'),
     require('postcss-calc'),
-    require('postcss-alias-atrules')({ rules }),
     require('autoprefixer'),
   ],
   plugins: [

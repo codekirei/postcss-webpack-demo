@@ -37,3 +37,4 @@
 
 - [brand-colors](https://github.com/postcss/postcss-brand-colors)
 - [calc](https://github.com/postcss/postcss-calc)
+- [simple-variables](https://github.com/postcss/postcss-simple-vars)

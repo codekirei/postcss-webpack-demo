@@ -3,14 +3,18 @@
    - custom-media
    - media-minmax
    - if-media
+   - alias-atrules
+   - simple-variables
 \* ------------------------------------------------------ */
-@custom-media --sm only screen and (width <= 600px);
-@custom-media --md only screen and (600px < width < 1280px);
-@custom-media --lg only screen and (width >= 1280px);
+$sm: 600px;
+$md: 1280px;
+
+@breakpoint --sm only screen and (width <= $sm);
+@breakpoint --md only screen and ($sm < width < $md);
+@breakpoint --lg only screen and (width >= $md);
 
 body {
   background: red ?if media (--sm);
   background: blue ?if media (--md);
   background: yellow ?if media (--lg);
 }
-

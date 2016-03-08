@@ -1,10 +1,6 @@
 - selectors:
   - nesting / nested / nested-props
 
-- values:
-  - css-variables
-    - + media-variables if necessary
-
 - color-scale -> ??
 - size
 - fontpath
