@@ -6,7 +6,6 @@
   --cs-variance: 20;
 }
 
-/* color-scale */
 .primary { background: cs(0); }
 .primary--dark { background: cs(-1); }
 .primary--light { background: cs(1); }

@@ -1,15 +1,4 @@
-- fonts:
-  - font-magician
-
-- svg
-  - inline-svg
-  - postcss-svgo
-  - svg-fragments?
-
 - selectors:
-  - pseudo-class-enter
-  - quantity-queries
-  - custom-selectors
   - nesting / nested / nested-props
 
 - at-rules
@@ -19,13 +8,19 @@
 
 - values:
   - calc
-  - css-variables / simple-vars
+  - css-variables
     - + media-variables if necessary
+
+- color-scale -> ??
+- color-alpha
+- size
+- fontpath
 
 - normalize.css + okikae.css
 
 - To Think About More:
   - mixins to include by default (see short-*, axis)
+    - font
   - minification (nano?)
   - probably not necessary
     - reporter/browser-reporter?
@@ -47,7 +42,6 @@
     - base64 encoding?
       - base64
       - image-inliner
-  - sprites
 
 - Create kirei-css compilation
   - have a look at these existing compilations:

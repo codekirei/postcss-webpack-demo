@@ -27,7 +27,11 @@
 - [if-media](https://github.com/arccoza/postcss-if-media)
 - [media-minmax](https://github.com/postcss/postcss-media-minmax)
 
-**SVGs**
+**Optimization**
+
+**Selectors**
+
+- [custom-selectors](https://github.com/postcss/postcss-custom-selectors)
 
 **Text**
 
