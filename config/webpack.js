@@ -35,7 +35,6 @@ module.exports = {
     require('postcss-media-minmax'),
     require('postcss-custom-selectors'),
     require('postcss-define-units'),
-    require('postcss-color-scale'),
     require('postcss-brand-colors'),
     require('postcss-responsive-type'),
     require('lost'),

@@ -1,7 +1,6 @@
 - selectors:
   - nesting / nested / nested-props
 
-- color-scale -> ??
 - size
 - fontpath
 

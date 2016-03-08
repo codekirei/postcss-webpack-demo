@@ -2,7 +2,6 @@
 @import "styles/define-units";
 @import "styles/autoprefixer";
 @import "styles/media-queries";
-@import "styles/color-scale";
 @import "styles/brand-colors";
 @import "styles/lost";
 @import "styles/responsive-type";
