@@ -1,3 +1,4 @@
+- split out custom plugin collection into own repo
 - normalize.css + okikae.css
 
 - To Think About More:
@@ -9,8 +10,3 @@
     - at2x
     - srcset?
   - asset path resolution?
-
-- Create kirei-css compilation
-  - have a look at these existing compilations:
-    - simplaio/rucksack
-    - jonathantneal/precss
